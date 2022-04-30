@@ -1,7 +1,7 @@
 let APILink
 
 const apiUrls = {
-    production: "",
+    production: "https://brie-app-server.herokuapp.com/",
     development: "http://localhost:3001/"
 }
 
