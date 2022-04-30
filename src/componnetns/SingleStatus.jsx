@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import EditStat from './EditStat';
 function SingleStatus (props){
-    const symptoms = props.stat.symptoms[0]
+    const symptoms = props.stat?.symptoms[0]
     const [showForm, setShowForm]= useState(false)
     const handleShow = ()=>{
         setShowForm(!showForm)
